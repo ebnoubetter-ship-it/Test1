@@ -747,3 +747,14 @@ body[lang="ar"] .lang-ar {
     grid-template-columns: 1fr;
   }
 }
+
+/* Dans style.css */
+
+.hero {
+    /* Ajoutez ou remplacez ces lignes pour définir l’image de fond */
+    background-image: url('F1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
