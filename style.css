@@ -6,8 +6,8 @@
 
 :root {
   /* Primary Brand Colors */
-  --primary-rose-gold: #d4a574;
-  --primary-pink: #e8b4c8;
+  --primary-rose-gold: #e77ca6;
+  --primary-pink:      #e8b4c8;
 
   /* Neutrals */
   --white: #ffffff;
@@ -17,7 +17,7 @@
   --light-gray: #f9f8f6;
 
   /* Accents */
-  --gold: #d4af37;
+  --gold: #e77ca6;
   --soft-pink: #fce4ec;
 
   /* Text Colors */
@@ -59,15 +59,9 @@ body[dir="rtl"] .gallery-grid {
   position: sticky;
   top: 0;
   z-index: 1000;
-
-  /* Fond semi‑transparent (80 % d’opacité) pour laisser voir ce qui passe derrière */
-  background: rgba(255, 255, 255, 0.8);
-
-  /* Effet de flou sur l’arrière‑plan */
+  background: rgba(255, 255, 255, 0.8); /* fond semi‑transparent */
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Support Safari */
-
-  /* Ombre légère si vous souhaitez conserver un peu de relief (optionnel) */
+  -webkit-backdrop-filter: blur(10px);  /* compatibilité Safari */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -227,7 +221,7 @@ body[lang="ar"] .lang-ar {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: rgba(212, 165, 116, 0.1);
+  background: rgba(231, 124, 116, 0.1);
   border-radius: 50%;
   top: -100px;
   right: -100px;
