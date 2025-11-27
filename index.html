@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pink Bellezza - Salon de coiffure et spa à Nouakchott, Mauritanie">
+    <title>Pink Bellezza - Salon de Coiffure & Spa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span data-fr="PINK BELLEZZA" data-ar="بينك بيليزا">PINK BELLEZZA</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#accueil" class="nav-link" data-fr="Accueil" data-ar="الصفحة الرئيسية">Accueil</a>
+                <a href="#apropos" class="nav-link" data-fr="À propos" data-ar="من نحن">À propos</a>
+                <a href="#services" class="nav-link" data-fr="Services" data-ar="الخدمات">Services</a>
+                <a href="#galerie" class="nav-link" data-fr="Galerie" data-ar="المعرض">Galerie</a>
+                <a href="#contact" class="nav-link" data-fr="Contact" data-ar="اتصل بنا">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="lang-btn" id="langBtn" data-fr="AR" data-ar="FR">AR</button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <img src="/placeholder.svg?height=800&width=1200" alt="Pink Bellezza Salon" class="hero-image">
+        <div class="hero-content">
+            <h1 class="hero-title" data-fr="Pink Bellezza – Salon de Coiffure & Spa en Mauritanie" data-ar="بينك بيليزا – صالون التجميل والسبا في موريتانيا">Pink Bellezza – Salon de Coiffure & Spa en Mauritanie</h1>
+            <p class="hero-subtitle" data-fr="Beauté, élégance et bien-être au cœur de Nouakchott." data-ar="الجمال والأناقة والاسترخاء في قلب نواكشوط.">Beauté, élégance et bien-être au cœur de Nouakchott.</p>
+            <a href="#reservation" class="cta-button" data-fr="Réserver maintenant" data-ar="احجز الآن">Réserver maintenant</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title" data-fr="Qui sommes-nous ?" data-ar="من نحن؟">Qui sommes-nous ?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-fr="Pink Bellezza est plus qu'un salon de beauté. C'est un sanctuaire d'élégance et de bien-être dédié à sublimer votre beauté naturelle. Depuis notre ouverture, nous offrons des services premium dans un environnement luxueux et accueillant." data-ar="بينك بيليزا أكثر من مجرد صالون تجميل. إنه ملاذ من الأناقة والعافية مكرس لتحسين جمالك الطبيعي. منذ افتتاحنا، نقدم خدمات فاخرة في بيئة فخمة وودية.">Pink Bellezza est plus qu'un salon de beauté. C'est un sanctuaire d'élégance et de bien-être dédié à sublimer votre beauté naturelle. Depuis notre ouverture, nous offrons des services premium dans un environnement luxueux et accueillant.</p>
+                    <p data-fr="Notre équipe de professionnels qualifiés met un point d'honneur à vous offrir une expérience exceptionnelle, du premier accueil jusqu'à la dernière touche." data-ar="يركز فريقنا من المحترفين المؤهلين على تقديم تجربة استثنائية لك، من الترحيب الأول إلى اللمسة الأخيرة.">Notre équipe de professionnels qualifiés met un point d'honneur à vous offrir une expérience exceptionnelle, du premier accueil jusqu'à la dernière touche.</p>
+                </div>
+                <img src="/placeholder.svg?height=400&width=400" alt="Notre salon" class="about-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-fr="Nos Services" data-ar="خدماتنا">Nos Services</h2>
+            <div class="services-grid">
+                <!-- Coiffure -->
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title" data-fr="Coiffure" data-ar="تسريحات الشعر">Coiffure</h3>
+                    <p class="service-desc" data-fr="Coupes, colorations et styles personnalisés pour une beauté durable." data-ar="قصات وتلوينات وتسريحات مخصصة لجمال دائم.">Coupes, colorations et styles personnalisés pour une beauté durable.</p>
+                </div>
+                <!-- Manicure & Pédicure -->
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3 class="service-title" data-fr="Manicure & Pédicure" data-ar="تنظيف الأظافر">Manicure & Pédicure</h3>
+                    <p class="service-desc" data-fr="Soins des ongles avec les meilleurs produits du marché." data-ar="علاجات الأظافر بأفضل المنتجات في السوق.">Soins des ongles avec les meilleurs produits du marché.</p>
+                </div>
+                <!-- Spa -->
+                <div class="service-card">
+                    <div class="service-icon">🧖</div>
+                    <h3 class="service-title" data-fr="Spa" data-ar="السبا">Spa</h3>
+                    <p class="service-desc" data-fr="Massages relaxants et soins corporels pour votre bien-être." data-ar="تدليك مريح وعلاجات الجسم لرفاهيتك.">Massages relaxants et soins corporels pour votre bien-être.</p>
+                </div>
+                <!-- Maquillage -->
+                <div class="service-card">
+                    <div class="service-icon">💄</div>
+                    <h3 class="service-title" data-fr="Maquillage" data-ar="المكياج">Maquillage</h3>
+                    <p class="service-desc" data-fr="Maquillage professionnel pour vos occasions spéciales." data-ar="مكياج احترافي لمناسباتك الخاصة.">Maquillage professionnel pour vos occasions spéciales.</p>
+                </div>
+                <!-- Soin du Visage -->
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title" data-fr="Soin du Visage" data-ar="علاج الوجه">Soin du Visage</h3>
+                    <p class="service-desc" data-fr="Soins spécialisés adaptés à votre type de peau." data-ar="علاجات متخصصة مناسبة لنوع بشرتك.">Soins spécialisés adaptés à votre type de peau.</p>
+                </div>
+                <!-- Extensions -->
+                <div class="service-card">
+                    <div class="service-icon">💇</div>
+                    <h3 class="service-title" data-fr="Extensions de Cheveux" data-ar="تمديدات الشعر">Extensions de Cheveux</h3>
+                    <p class="service-desc" data-fr="Extensions premium pour plus de volume et de longueur." data-ar="تمديدات فاخرة لمزيد من الحجم والطول.">Extensions premium pour plus de volume et de longueur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <h2 class="section-title" data-fr="Galerie" data-ar="معرض الصور">Galerie</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-caption="Coiffure élégante">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 1">
+                </div>
+                <div class="gallery-item" data-caption="Soin beauté">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 2">
+                </div>
+                <div class="gallery-item" data-caption="Maquillage professionnel">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 3">
+                </div>
+                <div class="gallery-item" data-caption="Manucure & pédicure">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 4">
+                </div>
+                <div class="gallery-item" data-caption="Soins cheveux">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 5">
+                </div>
+                <div class="gallery-item" data-caption="Salon ambiance">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Galerie 6">
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close" id="closeLightbox">&times;</span>
+            <img class="lightbox-content" id="lightboxImg" src="/placeholder.svg" alt="">
+            <div id="lightboxCaption" class="lightbox-caption"></div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="localisation" class="location">
+        <div class="container">
+            <h2 class="section-title" data-fr="Notre Localisation" data-ar="موقعنا">Notre Localisation</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.2497990967045!2d-15.99304142615195!3d18.1062520817015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe964d996fc6f29f%3A0x6c77691f07685a0b!2sPINK%20BELLEZZA%20(Salon%20De%20coiffure%20%26Spa%20Mauritanie)!5e0!3m2!1sfr!2sfr!4v1764203559252!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="reservation" class="booking">
+        <div class="container">
+            <h2 class="section-title" data-fr="Réserver" data-ar="احجز موعداً">Réserver</h2>
+            <div class="calendly-container">
+                <div class="calendly-inline-widget" data-url="https://calendly.com/ebnoubetter/30min" style="min-width:320px;height:700px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-fr="Contactez-nous" data-ar="اتصل بنا">Contactez-nous</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3 class="contact-label" data-fr="Téléphone" data-ar="الهاتف">Téléphone</h3>
+                    <a href="tel:+22222222222">+222 22 22 22 22</a>
+                </div>
+                <div class="contact-card">
+                    <h3 class="contact-label" data-fr="WhatsApp" data-ar="واتس آب">WhatsApp</h3>
+                    <a href="https://wa.me/22222222222" target="_blank">Chat via WhatsApp</a>
+                </div>
+                <div class="contact-card">
+                    <h3 class="contact-label" data-fr="Adresse" data-ar="العنوان">Adresse</h3>
+                    <p>Nouakchott, Mauritanie</p>
+                </div>
+                <div class="contact-card">
+                    <h3 class="contact-label" data-fr="Horaires" data-ar="ساعات العمل">Horaires</h3>
+                    <p data-fr="Lun - Sam: 10h - 19h" data-ar="الاثنين - السبت: 10 صباحاً - 7 مساءً">Lun - Sam: 10h - 19h</p>
+                    <p data-fr="Dimanche: Fermé" data-ar="الأحد: مغلق">Dimanche: Fermé</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/22222222222" class="whatsapp-btn" target="_blank" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.909 1.251c-1.428.797-2.674 1.9-3.56 3.646 0 0-1.42 2.936-.472 6.11 1.202 3.9 4.093 6.652 8.066 7.348 1.271.24 2.605.196 3.89-.13 2.488-.592 4.544-2.676 5.148-5.4.539-2.487.165-5.236-1.628-7.475-1.273-1.673-3.014-2.8-5.078-3.145a9.764 9.764 0 00-1.453-.103z"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title" data-fr="Pink Bellezza" data-ar="بينك بيليزا">Pink Bellezza</h4>
+                    <p data-fr="Votre destination pour la beauté et le bien-être." data-ar="وجهتك للجمال والعافية.">Votre destination pour la beauté et le bien-être.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-fr="Suivez-nous" data-ar="تابعنا">Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-fr="© 2025 Pink Bellezza. Tous droits réservés." data-ar="© 2025 بينك بيليزا. جميع الحقوق محفوظة.">© 2025 Pink Bellezza. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
