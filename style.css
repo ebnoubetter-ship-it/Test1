@@ -59,7 +59,15 @@ body[dir="rtl"] .gallery-grid {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--white);
+
+  /* Fond semi‑transparent (80 % d’opacité) pour laisser voir ce qui passe derrière */
+  background: rgba(255, 255, 255, 0.8);
+
+  /* Effet de flou sur l’arrière‑plan */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Support Safari */
+
+  /* Ombre légère si vous souhaitez conserver un peu de relief (optionnel) */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -87,7 +95,7 @@ body[dir="rtl"] .gallery-grid {
   font-family: var(--font-serif);
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--primary-rose-gold);
+  color: var(--primary-pink);
   letter-spacing: 1px;
 }
 
